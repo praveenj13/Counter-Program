@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px; 
+    border: 3px solid hsl(0, 0%, 64%);
+}
+
+h1 {
+    display: block;
+    text-align: center; 
+    transform: translateY(500%); 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.8em;
+    color:hsl(0, 0%, 0%);
+    
+}
+
+#countLabel {
+    display: flex;
+    flex-direction: row;
+    font-size: 6em;
+    font-family: Arial, Helvetica, sans-serif; 
+    justify-content: center; 
+    align-items: center;
+    height: 82vh;
+}
+
+#containerBtn {
+    display: block;
+    text-align: center; 
+    transform: translateY(-500%); 
+
+}
+
+.buttons {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: hsl(38, 93%, 70%);
+    font-size: medium;
+    font-family: Verdana,Tahoma, sans-serif;
+    transition: background-color 0.25s;
+    color: hsl(64, 91%, 13%);
+} 
+
+.buttons:hover {
+    background-color:hsl(38, 94%, 51%);
+}
